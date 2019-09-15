@@ -71,15 +71,22 @@ Some segmentation result examples:
 
 ### Additional Datasets
 The same scripts also exist for COSEG segmentation in ```scripts/coseg_seg``` and cubes classification in ```scripts/cubes```. 
-  
+
+###
+Check out the [segmentation wiki](https://github.com/ranahanocka/MeshCNN/wiki/Segmentation) for more details.
+
 # Citation
 If you find this code useful, please consider citing our paper
 ```
- @article{hanocka2019meshcnn,
+@article{hanocka2019meshcnn,
   title={MeshCNN: A Network with an Edge},
   author={Hanocka, Rana and Hertz, Amir and Fish, Noa and Giryes, Raja and Fleishman, Shachar and Cohen-Or, Daniel},
-  journal={arXiv preprint arXiv:1809.05910},
-  year={2019}
+  journal={ACM Transactions on Graphics (TOG)},
+  volume={38},
+  number={4},
+  pages = {90:1--90:12},
+  year={2019},
+  publisher={ACM}
 }
 ```
 
